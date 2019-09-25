@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<title>Kasvio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <a onclick="mustikka()" class="w3-bar-item w3-button">Mustikka</a>
+  <a onclick="puolukka()" class="w3-bar-item w3-button">Puolukka</a>
+  <a onclick="paivankakkara()" class="w3-bar-item w3-button">P&auml;iva&auml;kakkara</a>
+  <a onclick="kissankello()" class="w3-bar-item w3-button">Kissankello</a>
+   <a onclick="piharatamo()" class="w3-bar-item w3-button">Piharatamo</a>
+  <a onclick="siankarsamo()" class="w3-bar-item w3-button">Siank&auml;rs&auml;m&ouml;</a>
+  <a onclick="voikukka()" class="w3-bar-item w3-button">Voikukka</a>
+  <a onclick="kultapiisku()" class="w3-bar-item w3-button">Kultapiisku</a>
+  <a onclick="timotei()" class="w3-bar-item w3-button">Timotei</a>
+    <a onclick="tupasvilla()" class="w3-bar-item w3-button">Tupasvilla</a>
+  <a onclick="rahkasammal()" class="w3-bar-item w3-button">Rahkasammal</a>
+  <a onclick="ahomansikka()" class="w3-bar-item w3-button">Ahomansikka</a>
+  <a onclick="takiainen()" class="w3-bar-item w3-button">Takiainen</a>
+  <a onclick="mesiangervo()" class="w3-bar-item w3-button">Mesiangervo</a>
+  <a onclick="pihlaja()" class="w3-bar-item w3-button">Pihlaja</a>
+  <a onclick="koiranputki()" class="w3-bar-item w3-button">Koiranputki</a>
+  <a onclick="nokkonen()" class="w3-bar-item w3-button">Nokkonen</a>
+  <a onclick="Punaapila()" class="w3-bar-item w3-button">Punaapila</a>
+  <a onclick="joulavehna()" class="w3-bar-item w3-button">Joulavehn&auml;</a>
+  <a onclick="tupasvilla()" class="w3-bar-item w3-button">Tupasvilla</a>
+  <a onclick="kultapiisku()" class="w3-bar-item w3-button">Kultapiisku</a>
+  <a onclick="pietaryrti()" class="w3-bar-item w3-button">Pietaryrtti</a>
+</div>
+
+<div id="main">
+
+<div class="w3-teal">
+  <div class="w3-container">
+    <h1>Minun kasvioni</h1>
+  </div>
+</div>
+
+<div class="w3-container">
+<p></p> <div id="info">Valitse kasvi listasta</div><div style="position relative; right: 0px;" id="foto"></div>
+<br>Jos l&ouml;yd&auml;t virheen kirjoita siit&auml; <a href="https://github.com/MeetPing/CameraBot/issues/new?title=Kasviossa%20on%20virhe%20&body=Kirjoia%20virhe">t&auml;ss&auml;</a>
+<br> Kaikki kuvat on ottanut Samuel Hautam&auml;ki
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+w3_open()
+function mustikka() {
+      document.getElementById("info").innerHTML = "Nimi: Mustikka <br> Paikkakunta: Joensuu <br> Elinpaikka: Mets&auml;"
+      document.getElementById("foto").innerHTML = "<img src='https://www.camerabot.cf/school/photos/mustikka.jpg' height='300'></img>"
+      w3_close()
+}
+  function puolukka() {
+      document.getElementById("info").innerHTML = "Nimi: Puolukka <br> Paikkakunta: Joensuu <br> Elinpaikka: Mets&auml;"
+      document.getElementById("foto").innerHTML = "<img src='https://www.camerabot.cf/school/photos/puolukka.jpg' height='300'></img>"
+      w3_close()
+}
+    function kissankello() {
+      document.getElementById("info").innerHTML = "Nimi: Kissankello <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja piennar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190721_191925_kissankello.jpg' height='300'></img>"
+      w3_close()
+}
+      function piharatamo() {
+      document.getElementById("info").innerHTML = "Nimi: Piharatamo <br> Paikkakunta: Maksniemi <br> Elinpaikka: Kaupunki-ymp&auml;risto"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_154813_piharatamo.jpg' height='300'></img>"
+      w3_close()
+}
+        function paivankakkara() {
+      document.getElementById("info").innerHTML = "Nimi: P&auml;iv&auml;nkakkara <br> Paikkakunta: Maksniemi <br> Elinpaikka: Kaupunki-ymp&auml;risto"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_154644_paivankakkara.jpg' height='300'></img>"
+      w3_close()
+}
+          function voikukka() {
+      document.getElementById("info").innerHTML = "Nimi: Voikukka <br> Paikkakunta: Maksniemi <br> Elinpaikka: Kaupunki-ymp&auml;risto"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_154002_voikukka.jpg' height='300'></img>"
+      w3_close()
+} 
+            function timotei() {
+      document.getElementById("info").innerHTML = "Nimi: Timotei <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_154241_timotei.jpg' height='300'></img>"
+      w3_close()
+}//IMG_20190717_154159_pietaryti.jpg
+  
+            function pietaryrti() {
+      document.getElementById("info").innerHTML = "Nimi: Pietaryrtti <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_154159_pietaryti.jpg' height='300'></img>"
+      w3_close()
+}
+              function kultapiisku() {
+      document.getElementById("info").innerHTML = "Nimi: Kultapiisku <br> Paikkakunta: Maksniemi <br> Elinpaikka: Mets&auml;"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_153845_kultapisku.jpg' height='300'></img>"
+      w3_close()
+}
+                function siankarsamo() {
+      document.getElementById("info").innerHTML = "Nimi: Siank&auml;rs&auml;m&ouml; <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_153740_siankarsamo.jpg' height='300'></img>"
+      w3_close()
+}
+                  function joulavehna() {
+      document.getElementById("info").innerHTML = "Nimi: Joulavehn&auml; <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_153601_Juolavehna.jpg' height='300'></img>"
+      w3_close()
+}//IMG_20190717_153357_punaapila.jpg
+                    function punaapila() {
+      document.getElementById("info").innerHTML = "Nimi: Punaapila <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_153357_punaapila.jpg' height='300'></img>"
+      w3_close()
+}
+                      function nokkonen() {
+      document.getElementById("info").innerHTML = "Nimi: Nokkonen <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190717_153301_nokkonen.jpg' height='300'></img>"
+      w3_close()
+}
+  
+                      function koiranputki() {
+      document.getElementById("info").innerHTML = "Nimi: Koiranputki <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190715_180555_koiranputki.jpg' height='300'></img>"
+      w3_close()
+}
+                        function pihlaja() {
+      document.getElementById("info").innerHTML = "Nimi: Pihlaja <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190715_180230_pihlaja.jpg' height='300'></img>"
+      w3_close()
+}
+                          function mesiangervo() {
+      document.getElementById("info").innerHTML = "Nimi: Mesiangervo <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190715_180122_mesiangervo.jpg' height='300'></img>"
+      w3_close()
+}
+                            function takiainen() {
+      document.getElementById("info").innerHTML = "Nimi: Takiainen <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190715_175958_takiainen.jpg' height='300'></img>"
+      w3_close()
+}
+                              function ahomansikka() {
+      document.getElementById("info").innerHTML = "Nimi: Ahomansikka <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190715_175859_ahomansikka.jpg' height='300'></img>"
+      w3_close()
+}
+                                function rahkasammal() {
+      document.getElementById("info").innerHTML = "Nimi: Rahkasammal <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190715_175714_rahkasammal.jpg' height='300'></img>"
+      w3_close()
+}
+                                  function tupasvilla() {
+      document.getElementById("info").innerHTML = "Nimi: Rahkasammal <br> Paikkakunta: Maksniemi <br> Elinpaikka: Niitty ja pietar"
+      document.getElementById("foto").innerHTML = "<img src='IMG_20190715_175628_tupasvilla.jpg' height='300'></img>"
+      w3_close()
+}
+</script>
+</body>
+</html>
